@@ -2,8 +2,9 @@ rpmbuild-silk
 =============
 
 rpm build notes for silkv2.5.0
+http://tools.netsa.cert.org/index.html
 
-This project covers  rpm build process for silk.  We'll use:
+This project covers  rpm build process for silk.  We'll use the resources below:
 libfixbuf-1.2.0
 netsa-python-1.3
 silk-2.5.0
