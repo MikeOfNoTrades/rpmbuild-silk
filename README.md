@@ -71,11 +71,12 @@ yum install libtool-ltdl-devel
 NOw SilK:
 yum install -y gcc make python-devel glib2-devel gnutls gnutls-devel lzo lzo-devel  libpcap libpcap-devel zlib zlib-devel
 
-copy to sources as above.  the spec file is called silk.spec.in
+
 this configure command:
 ./configure --with-python --sysconfdir=/etc/sysconfig --enable-data-rootdir=/opt/silk/data --prefix=/opt/silk --enable-output-compression --enable-asa-zero-packet-hack
 
 produced this summary:
+
     * Configured package:           SiLK 2.5.0
     * Host type:                    x86_64-unknown-linux-gnu
     * Source files ($top_srcdir):   .
@@ -101,3 +102,4 @@ produced this summary:
     * Linker flags (LDFLAGS):       
     * Libraries (LIBS):             -lz -ldl -lm 
 
+the ./configure step also created the spec file .  copy that to the SPEC directory and use it to create the rpm
