@@ -18,3 +18,5 @@ My information came from the following source.  Thanks for that!:D
 
 http://tools.netsa.cert.org/silk/install-handbook.html
 http://infosecmatters.blogspot.com/2012/10/netflow-analysis-with-silk-part-1.html
+
+install.sh is not actually used in the build process.  It's just some notes as I go along.
