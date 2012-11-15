@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#  this doesn't do anything yet.  it was just a starting point
 import sys, os, subprocess, smtplib, time
 
 def runBash(cmd):
