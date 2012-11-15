@@ -1,8 +1,10 @@
 rpmbuild-silk
 =============
 
-rpm build notes for silkv2.5.0
+rpm build and installation notes for silkv2.5.0
 http://tools.netsa.cert.org/index.html
+
+
 
 This project covers  rpm build process for silk. I'm creating binaries for Centos 5.7 64-bit. 
 We'll use the resources below:
